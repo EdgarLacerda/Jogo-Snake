@@ -213,7 +213,3 @@ python snake.py
 ## 📝 Notas de Desenvolvimento
 
 > **Bug conhecido:** A verificação de colisão com as bordas ocorre *antes* da atualização da posição, fazendo com que a cobra "morra" um frame antes do esperado visualmente. A correção é mover a checagem para após `x += velocidade_x` e `y += velocidade_y`.
-
----
-
-*GDD gerado para fins educacionais. Projeto de aprendizado em Python + Pygame.*
